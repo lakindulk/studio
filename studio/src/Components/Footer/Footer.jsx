@@ -1,5 +1,4 @@
 import React from "react";
-import { theme } from "../../config/ThemeConfig";
 import { Grid, Box, Typography } from "@mui/material";
 import CustomTypography from "../Theme/CustomTypography";
 
