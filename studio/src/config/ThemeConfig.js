@@ -14,11 +14,23 @@ export const theme = createTheme({
       fontWeight: 300,
       color: whiteText,
     },
+    navtext2: {
+      fontFamily: baseFont,
+      fontSize: { lg: "16px", md: "16px", sm: "16px", xs: "16px" },
+      fontWeight: 300,
+      color: blackText,
+    },
     data: {
       fontFamily: baseFont,
       fontSize: { lg: "20px", md: "20px", sm: "20px", xs: "16px" },
       fontWeight: 400,
       color: whiteText,
+    },
+    data2: {
+      fontFamily: baseFont,
+      fontSize: { lg: "20px", md: "20px", sm: "20px", xs: "16px" },
+      fontWeight: 400,
+      color: blackText,
     },
     header: {
       fontFamily: baseFont,
