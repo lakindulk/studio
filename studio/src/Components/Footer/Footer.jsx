@@ -50,7 +50,7 @@ export default function Footer() {
               <CustomTypography variant="navtext">Gallery</CustomTypography>
             </Grid>
             <Grid item xs={2} marginLeft="48px">
-                         <a href="/contact">
+                         <a href="/contact" style={{textDecoration:'none'}}>
              <CustomTypography variant="navtext">Contact Us</CustomTypography> </a>
             </Grid>
           </Grid>
