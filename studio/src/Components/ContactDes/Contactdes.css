@@ -63,13 +63,10 @@
   }
   
   .login-box a:hover {
-    background: #03f40f;
+    background: rgba(252, 223, 0, 0.619);
     color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 5px #03f40f,
-                0 0 25px #03f40f,
-                0 0 50px #03f40f,
-                0 0 100px #03f40f;
+   
   }
   
   .login-box a span {
