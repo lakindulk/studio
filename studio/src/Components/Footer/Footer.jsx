@@ -35,7 +35,8 @@ export default function Footer() {
         <Grid item xs={8} sx={{ backgroundColor: "#181818" }}>
           <Grid container sx={{ paddingLeft: { lg: "25%" } }}>
             <Grid item xs="auto">
-              <CustomTypography variant="navtext">Home</CustomTypography>
+            <a href="/" style={{textDecoration:'none'}}>
+            <CustomTypography variant="navtext">Home</CustomTypography></a>
             </Grid>
             <Grid item xs="auto" marginLeft="48px">
               <CustomTypography variant="navtext">
@@ -49,7 +50,8 @@ export default function Footer() {
               <CustomTypography variant="navtext">Gallery</CustomTypography>
             </Grid>
             <Grid item xs={2} marginLeft="48px">
-              <CustomTypography variant="navtext">Contact Us</CustomTypography>
+                         <a href="/contact">
+             <CustomTypography variant="navtext">Contact Us</CustomTypography> </a>
             </Grid>
           </Grid>
         </Grid>

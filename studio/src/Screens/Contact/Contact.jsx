@@ -11,7 +11,7 @@ import Footer from "../../Components/Footer/Footer";
 const Contact = () => {
   return (
     <Grid>
-      <Nav />
+      <Nav  selected="contact"/>
       <Banner />
       <div className="contact">
        

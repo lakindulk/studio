@@ -3,8 +3,7 @@ import { Grid, Box } from "@mui/material";
 import CustomTypography from "../Theme/CustomTypography";
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import EmailIcon from '@mui/icons-material/Email';
-import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import BusinessIcon from '@mui/icons-material/Business';
+
 import "./Contactdes.css";
 
 export default function ContactDes() {
@@ -68,7 +67,7 @@ export default function ContactDes() {
           <label>Inquiery</label>
         </div>
         <center>
-          <a href="#">
+          <a href="/#">
             SEND
             <span></span>
           </a>

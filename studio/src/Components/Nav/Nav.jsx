@@ -1,14 +1,21 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { theme } from "../../config/ThemeConfig";
 import { Grid, Box } from "@mui/material";
 import CustomTypography from "../Theme/CustomTypography";
 
-export default function Nav() {
+export default function Nav({selected}) {
   const [select, setSelect] = useState("home");
+ 
+  useEffect(() => {
+    if (selected) {
+      setSelect(selected);
+    }
+  }, [selected]);
 
   const handleClick = (value) => {
     setSelect(value);
   };
+
 
   return (
     <Grid>
@@ -41,6 +48,7 @@ export default function Nav() {
         <Grid item xs={8} sx={{ backgroundColor: "#181818" }}>
           <Grid container sx={{ marginTop: "16px", paddingLeft: { lg: "25%" } }}>
             <Grid item xs='auto' >
+            <a href="/" style={{textDecoration:'none'}}>
               <CustomTypography
                 variant="navtext"
                 sx={{
@@ -55,7 +63,7 @@ export default function Nav() {
                 onClick={() => handleClick("home")}
               >
                 Home
-              </CustomTypography>
+              </CustomTypography></a>
             </Grid>
             <Grid item xs='auto' marginLeft='48px'>
               <CustomTypography
@@ -114,6 +122,7 @@ export default function Nav() {
               </CustomTypography>
             </Grid>
             <Grid item xs={2} marginLeft='48px'>
+              <a href="/contact" style={{textDecoration:'none'}}>
               <CustomTypography
                 variant="navtext"
                 sx={{
@@ -131,6 +140,7 @@ export default function Nav() {
               >
                 Contact Us
               </CustomTypography>
+              </a>
             </Grid>
             <Grid item xs={2}>
             <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
