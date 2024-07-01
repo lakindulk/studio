@@ -4,6 +4,8 @@ import { createTheme } from "@mui/material/styles";
 const baseFont = "Inter";
 const whiteText = "#FFFFFF";
 const blackText = "#181818";
+const whiteText2 = "#C1C1C1";
+
 
 export const theme = createTheme({
  
@@ -19,6 +21,12 @@ export const theme = createTheme({
       fontSize: { lg: "16px", md: "16px", sm: "16px", xs: "16px" },
       fontWeight: 300,
       color: blackText,
+    },
+    navtext3: {
+      fontFamily: baseFont,
+      fontSize: { lg: "16px", md: "16px", sm: "16px", xs: "16px" },
+      fontWeight: 400,
+      color: whiteText2,
     },
     data: {
       fontFamily: baseFont,
