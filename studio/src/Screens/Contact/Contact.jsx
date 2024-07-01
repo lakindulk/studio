@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <Grid>
       <Nav  selected="contact"/>
-      <Banner />
+      <Banner link={"https://res.cloudinary.com/iplus/video/upload/v1719843329/4043935-hd_1920_1080_24fps_vki0dk.mp4"}/>
       <div className="contact">
        
         <Contactdes />
