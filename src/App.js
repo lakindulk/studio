@@ -8,6 +8,7 @@ import { FirebaseProvider } from "./contexts/FirebaseContext";
 import ProductList from "./Screens/Pages/ProductList";
 import EditProduct from "./Screens/Pages/EditProduct";
 import AddProductForm from "./Screens/Pages/AddProductForm";
+import AllProduct from "./Screens/Products/AllProduct";
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/add-product" element={<AddProductForm/>} />
         <Route path="/edit-product" element={<EditProduct/>} />
         <Route path="/productlist" element={<ProductList/>} />
+        <Route path="/all-product" element={<AllProduct/>} />
 
       </Routes>
     </Router>

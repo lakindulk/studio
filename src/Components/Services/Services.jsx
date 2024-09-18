@@ -43,7 +43,8 @@ export default function Services() {
               description="Registered studio of goverment"
               data1="Create"
               data2="Renew"
-              link="/#"
+              link="/all-product"
+
           />
         </Grid>
         <Grid item xs={2}>
@@ -66,7 +67,8 @@ export default function Services() {
             description="How about a uncommon frame? "
             data1="Easy select"
             data2="More choices"
-            link="/#"
+            link="/all-product"
+
           />
         </Grid>
         <Grid item xs={2}>
@@ -97,7 +99,8 @@ export default function Services() {
             description="How about a uncommon frame? "
             data1="Easy select"
             data2="More choices"
-            link="/#"
+            link="/all-product"
+
           />
         </Grid>
         
@@ -113,7 +116,8 @@ export default function Services() {
           description="Make your memory mug"
           data1="Normal mug"
           data2="Magic mug"
-          link="/#"
+          link="/all-product"
+
           />
         </Grid>
         <Grid item xs={2}>
@@ -127,7 +131,8 @@ export default function Services() {
           description="Print your memories"
           data1="Custermize"
           data2="Graphic design"
-          link="/#"/>
+          link="/all-product"
+/>
         </Grid>
         <Grid item xs={2}>
           <Servicecard 
@@ -143,7 +148,7 @@ export default function Services() {
           description="We will print your unforgotable day"
           data1="Photography"
           data2="Dressing"
-          link="/#"
+          link="/all-product"
           />
         </Grid>
       </Grid>
